@@ -1,0 +1,6 @@
+{
+	"title":"catalog",
+	"hostname":"0.0.0.0",
+	"serverPort":3000,
+	"secure":false
+}

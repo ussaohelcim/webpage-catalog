@@ -1,0 +1,9 @@
+mixin about(page)
+	- let link = `pages/${page.title}`
+	- let imgLink = `${link}/${page.image}`
+	div.page(id = page.title)
+		img.image(src= imgLink, alt="") 
+		a.link(href= link)
+			p #{page.title}
+		each about in page.about
+			p.about #{about}

@@ -1,0 +1,7 @@
+pages/*
+!pages/example
+
+node_modules
+
+cert/*
+!cert/README.md
